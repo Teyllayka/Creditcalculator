@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulators</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+
+    
+
+    <div id="calculator">
+        <h1>Syndicate B A N K A</h1>
+        <h1 id="title">Auto līzings bez ķīlas no 9% gadā!</h1>
+
+
+        <div id="money" class="a3">
+            <p class="aa">Summa:</p>
+            <div class="container"><p >750€</p><input type="range" min="50" max="500" id="sumvalue"  value="250" onclick="suminput()"><p>7500€</p></div>
+            <div class="sum"><p class="aa" id="d1" ><b>Summa:</b></p><input id="sum" value="3750" onInput="changesum()" onclick="sumdata()"></div>
+        </div>
+
+        <div id="money" class="a3">
+            <p class="aa">Termiņš:</p>        
+            <div class="container"><p>3</p><input type="range" min="1" max="24" id="monthvalue"  value="12" onclick="monthinput()"><p>72</p></div>
+            <div class="sum"><p class="aa" ><b>Termiņš:</b></p><input id="month" value="36 mēn" onInput="changemonth()" onclick="monthdata()"></div>
+        </div>
+
+            <b><p id="endValue" value="0">Kredīta summa 4762.50€</p></b>
+            <h1 class="aa">Ikmēneša maksājums</h1> <h1 id="everyMonth" class="aa">132.29</h1>
+            <button type="button" id="submit" onclick="su"><b>PIETEIKTIES</b></button>
+            <p id="ps">Kalkulatora aprēķinātie dati ir informatīvi un sniedz priekšstatu par ikmēneša maksājumu. Aizņemies atbildīgi, izvērtējot iespējas atmaksāt kredītu.</p>
+
+
+    </div>
+    <script src=./code.js></script>
+</body>
+</html>

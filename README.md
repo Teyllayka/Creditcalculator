@@ -1,1 +1,2 @@
-# Creditcalculator
+# credit-calculator
+yep

@@ -1,0 +1,147 @@
+
+
+
+.aa {
+    color: #55197d;
+    
+    
+}
+
+
+
+#calculator {
+    margin-left:40%;
+    width:300px;
+    text-align: center;
+}
+
+#title  {
+    color: #55197d;
+    text-align: center;
+}
+
+
+#sum, #month  {
+    border: 0px;
+    border-radius: 20px;
+    background: #55197d;
+    width:50px;
+    color:white;
+    text-align: center;
+    width:90px;
+    height:30px;
+}
+
+#month :hover {
+    border:hidden;
+    border-color:white;
+}
+
+#submit {
+    border: 0px;
+    border-radius: 20px;
+    background: #55197d;
+    color:white;
+    text-align: center;
+    width:200px;
+    height:30px;
+}
+
+.container {
+    display: flex;
+    justify-content:center;
+    width:300px;
+    margin-right:10%;
+    color:grey;
+}
+
+#money.a3 {
+    margin-right:7%;
+
+}
+
+#d1 {
+    margin-right:3%;
+}
+
+
+
+
+input {
+    margin-top:22px;
+}
+
+#money *{
+    display: flex;
+}
+
+
+.sum{
+    display:flex;
+    justify-content:center;
+    margin-right:42%;
+}
+
+
+
+#sum {
+    margin-top:10px;
+    margin-left:3%;
+}
+
+#month {
+    margin-top:10px;
+    margin-left:3%;
+}
+
+
+
+
+
+#endValue {
+    color: #696969;
+    font-size:25px;
+}
+
+
+
+
+#monthvalue {
+    margin-right:22px;
+    margin-left:22px;
+    width:800px;
+}
+
+
+#ps {
+    font-size:15px;
+    color:#353232a9;
+}
+
+
+input {
+    background: linear-gradient(to right, #55197d 0%, #55197d 50%, gray 50%, gray 100%);
+    border-radius: 8px;
+    height: 7px;
+    width: 356px;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+[type=range]::-webkit-slider-thumb {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2), 0 0 4px rgba(13, 13, 13, 0.2);
+    background: #eceff1;
+    border: 8px solid #55197d;
+    border-radius: 12px;
+    box-sizing: border-box;
+    cursor: default;
+    height: 24px;
+    width: 24px;
+    -webkit-appearance: none;
+    margin-top: -4px;
+}
+
+
+
+
+
